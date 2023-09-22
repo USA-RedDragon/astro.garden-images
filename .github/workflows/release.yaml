@@ -3,6 +3,9 @@ name: Release
 on:
   push:
     branches: [ main ]
+    paths:
+      - my-data
+      - other-data
 
 concurrency:
   group: '${{ github.workflow }} @ ${{ github.ref }}'
