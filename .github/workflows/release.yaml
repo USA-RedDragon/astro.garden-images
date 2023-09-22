@@ -1,0 +1,64 @@
+name: Release
+
+on:
+  push:
+    branches: [ main ]
+
+concurrency:
+  group: '${{ github.workflow }} @ ${{ github.ref }}'
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      NODE_ENV: production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "19.7"
+
+      - run: npm ci
+        env:
+          NODE_ENV: development
+
+      - run: npm run build
+
+      - name: Compress release asset
+        run: tar -czf gallery.tar.gz ./dist
+
+      - name: Create release
+        uses: actions/github-script@v6
+        id: create_release
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              const response = await github.rest.repos.createRelease({
+                draft: false,
+                generate_release_notes: true,
+                name: "${{ github.run_number }}",
+                owner: context.repo.owner,
+                prerelease: false,
+                repo: context.repo.repo,
+                tag_name: "${{ github.run_number }}",
+              });
+
+              core.setOutput('upload_url', response.data.upload_url);
+            } catch (error) {
+              core.setFailed(error.message);
+            }
+
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: gallery.tar.gz
+          asset_name: gallery.tar.gz
+          asset_content_type: application/octet-stream
