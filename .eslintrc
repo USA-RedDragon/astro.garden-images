@@ -4,6 +4,9 @@
         "eslint:recommended",
         "google"
     ],
+    "env": {
+        "node": true
+    },
     "rules": {
         "object-curly-spacing": [
             "error",
