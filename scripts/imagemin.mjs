@@ -1,7 +1,7 @@
 import imagemin from 'imagemin';
 import imageminOptipng from 'imagemin-optipng';
 import prettyBytes from 'pretty-bytes';
-import glob from 'glob';
+import { glob } from 'glob';
 import sharp from 'sharp';
 import path from 'path';
 import fs from 'fs/promises';
