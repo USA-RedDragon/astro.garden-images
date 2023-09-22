@@ -29,7 +29,7 @@ jobs:
       - run: npm run build
 
       - name: Compress release asset
-        run: tar -czf gallery.tar.gz ./dist
+        run: (cd dist; tar -cz .) > gallery.tar.gz
 
       - name: Create release
         uses: actions/github-script@v6
