@@ -4,7 +4,6 @@
         "eslint:recommended",
         "google"
     ],
-    "sourceType": "module",
     "rules": {
         "object-curly-spacing": [
             "error",
@@ -29,6 +28,7 @@
         "valid-jsdoc": "off"
     },
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     }
 }
