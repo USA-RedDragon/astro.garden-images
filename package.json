@@ -21,7 +21,7 @@
     "sharp": "^0.32.6"
   },
   "devDependencies": {
-    "eslint": "^8.52.0",
+    "eslint": "^8.53.0",
     "eslint-config-google": "^0.14.0"
   }
 }
