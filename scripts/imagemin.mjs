@@ -10,6 +10,7 @@ const origPath = '.';
 const galleryPath = 'dist';
 const genFullresPath = `${galleryPath}/generated/fullres`;
 const genHalfresPath = `${galleryPath}/generated/halfres`;
+const genSocialPath = `${galleryPath}/generated/social`;
 const otherDataImages = [];
 const myDataImages = [];
 
@@ -33,10 +34,13 @@ await mkdirP(`${galleryPath}/other-data`);
 await mkdirP(`${galleryPath}/generated`);
 await mkdirP(genHalfresPath);
 await mkdirP(genFullresPath);
+await mkdirP(genSocialPath);
 await mkdirP(`${genHalfresPath}/my-data`);
 await mkdirP(`${genHalfresPath}/other-data`);
 await mkdirP(`${genFullresPath}/my-data`);
 await mkdirP(`${genFullresPath}/other-data`);
+await mkdirP(`${genSocialPath}/my-data`);
+await mkdirP(`${genSocialPath}/other-data`);
 
 // Optimize original pngs
 console.log('[My images] Optimizing PNGs');
@@ -77,6 +81,15 @@ glob(`${genFullresPath}/my-data/*.png`, async (err, matches) => {
             .jpeg({ quality: 80, progressive: true, mozjpeg: true })
             .toFile(`${genHalfresPath}/my-data/${path.parse(mat).name}.jpg`).then((out) => {
               console.log(`${mat} to JPEG - ${prettyBytes(size)} -> ${prettyBytes(out.size)}`);
+            }).catch((err) => {
+              console.error(err);
+            });
+
+          sharp(mat).
+            png({ quality: 80, palette: true })
+            .resize(1200, 630, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
+            .toFile(`${genSocialPath}/my-data/${path.parse(mat).name}.png`).then((out) => {
+              console.log(`${mat} to PNG - ${prettyBytes(size)} -> ${prettyBytes(out.size)}`);
             }).catch((err) => {
               console.error(err);
             });
@@ -131,6 +144,15 @@ glob(`${genFullresPath}/other-data/*.png`, async (err, matches) => {
             .jpeg({ quality: 80, progressive: true, mozjpeg: true })
             .toFile(`${genHalfresPath}/other-data/${path.parse(mat).name}.jpg`).then((out) => {
               console.log(`${mat} to JPEG - ${prettyBytes(size)} -> ${prettyBytes(out.size)}`);
+            }).catch((err) => {
+              console.error(err);
+            });
+
+          sharp(mat).
+            png({ quality: 80, palette: true })
+            .resize(1200, 630, { fit: 'contain', background: { r: 255, g: 255, b: 255, alpha: 0 } })
+            .toFile(`${genSocialPath}/other-data/${path.parse(mat).name}.png`).then((out) => {
+              console.log(`${mat} to PNG - ${prettyBytes(size)} -> ${prettyBytes(out.size)}`);
             }).catch((err) => {
               console.error(err);
             });

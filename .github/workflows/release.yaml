@@ -6,6 +6,7 @@ on:
     paths:
       - my-data
       - other-data
+      - scripts
 
 concurrency:
   group: '${{ github.workflow }} @ ${{ github.ref }}'
