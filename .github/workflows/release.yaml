@@ -4,9 +4,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - my-data
-      - other-data
-      - scripts
+      - my-data/**
+      - other-data/**
+      - scripts/**
 
 concurrency:
   group: '${{ github.workflow }} @ ${{ github.ref }}'
