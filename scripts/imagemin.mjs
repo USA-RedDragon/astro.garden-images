@@ -108,6 +108,8 @@ glob(`${genFullresPath}/my-data/*.png`, async (err, matches) => {
           const imgData = {
             width: Math.round(width * 0.5),
             height: Math.round(height * 0.5),
+            halfWidth: Math.round(width * 0.5 * 0.5),
+            halfHeight: Math.round(height * 0.5 * 0.5),
             title: imgMeta.title,
             text: imgMeta.text,
             src: `my-data/${path.parse(mat).name}`,
@@ -171,6 +173,8 @@ glob(`${genFullresPath}/other-data/*.png`, async (err, matches) => {
           const imgData = {
             width: Math.round(width * 0.5),
             height: Math.round(height * 0.5),
+            halfWidth: Math.round(width * 0.5 * 0.5),
+            halfHeight: Math.round(height * 0.5 * 0.5),
             title: imgMeta.title,
             text: imgMeta.text,
             src: `other-data/${path.parse(mat).name}`,
