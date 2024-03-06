@@ -16,22 +16,12 @@ concurrency:
 jobs:
   release:
     runs-on: ubuntu-22.04
-    env:
-      NODE_ENV: production
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Use Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: .node-version
-
-      - run: npm ci
-        env:
-          NODE_ENV: development
-
-      - run: npm run build
+      - run: sudo apt update && sudo apt install -y optipng imagemagick
+      - run: ./scripts/build.sh
 
       - name: Compress release asset
         run: (cd dist; tar -cz .) > gallery.tar.gz
