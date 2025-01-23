@@ -39,8 +39,16 @@ for file in $(find ./other-data -name '*.png'); do
     echo "Minifying $fullname"
 done
 
-for pid in ${pids[*]}; do
-    wait $pid
+total_jobs=${#pids[*]}
+
+while [ ${#pids[*]} -gt 0 ]; do
+    echo "Waiting for ${#pids[*]} jobs to finish"
+    for pid in ${pids[*]}; do
+        if ! kill -0 $pid 2> /dev/null; then
+            pids=(${pids[@]/$pid})
+        fi
+    done
+    sleep 5
 done
 
 pids=()
@@ -68,11 +76,17 @@ for file in $(find ./$OUT/fullres/other-data -name '*.png'); do
     echo "Converting $name to OpenGraph"
 done
 
-for pid in ${pids[*]}; do
-    wait $pid
-done
+total_jobs=${#pids[*]}
 
-pids=()
+while [ ${#pids[*]} -gt 0 ]; do
+    echo "Waiting for ${#pids[*]} jobs to finish"
+    for pid in ${pids[*]}; do
+        if ! kill -0 $pid 2> /dev/null; then
+            pids=(${pids[@]/$pid})
+        fi
+    done
+    sleep 5
+done
 
 ##########################
 # Combine JSONs
@@ -81,14 +95,15 @@ files=$(find ./$OUT/fullres/my-data -name '*.png')
 for file in $files; do
     basename=$(basename $file)
     export name=${basename%.*}
+    if [[ $name == *_annotated ]]; then
+        continue
+    fi
     export width=$(identify -format "%[w]" $file)
     export height=$(identify -format "%[h]" $file)
     cp ./my-data/${name}.json $OUT/my-data/${name}.json
     yq -i -o json '.src = "my-data/" + strenv(name)' $OUT/my-data/${name}.json
     yq -i -o json '.width = env(width)' $OUT/my-data/${name}.json
     yq -i -o json '.height = env(height)' $OUT/my-data/${name}.json
-    # Width and height
-    pids+=($!)
     echo "Creating JSON for $name"
 done
 
@@ -96,14 +111,15 @@ files=$(find ./$OUT/fullres/other-data -name '*.png')
 for file in $files; do
     basename=$(basename $file)
     export name=${basename%.*}
+    if [[ $name == *_annotated ]]; then
+        continue
+    fi
     export width="$(identify -format "%[w]" $file)"
     export height="$(identify -format "%[h]" $file)"
     cp ./other-data/${name}.json $OUT/other-data/${name}.json
     yq -i -o json '.src = "other-data/" + strenv(name)' $OUT/other-data/${name}.json
     yq -i -o json '.width = env(width)' $OUT/other-data/${name}.json
     yq -i -o json '.height = env(height)' $OUT/other-data/${name}.json
-    # Width and height
-    pids+=($!)
     echo "Creating JSON for $name"
 done
 yq ea '[.]' -o json $OUT/my-data/*.json > $OUT/my-data.json
