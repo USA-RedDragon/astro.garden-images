@@ -20,6 +20,11 @@ cleanup() {
 
 trap cleanup TERM INT
 
+convert=convert
+if [ -x "$(command -v magick)" ]; then
+    convert=magick
+fi
+
 ##########################
 # Optipng fullres
 ##########################
@@ -58,20 +63,20 @@ pids=()
 ##########################
 for file in $(find ./$OUT/fullres/my-data -name '*.png'); do
     name=$(basename $file)
-    magick $file -quality 50 -resize 50% "$OUT/halfres/my-data/${name%.*}.webp" &
+    $convert $file -quality 50 -resize 50% "$OUT/halfres/my-data/${name%.*}.webp" &
     pids+=($!)
     echo "Converting $name to WebP"
-    magick $file -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/my-data/${name%.*}.png" &
+    $convert $file -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/my-data/${name%.*}.png" &
     pids+=($!)
     echo "Converting $name to OpenGraph"
 done
 
 for file in $(find ./$OUT/fullres/other-data -name '*.png'); do
     name=$(basename $file)
-    magick $file -quality 50 -resize 50% "$OUT/halfres/other-data/${name%.*}.webp" &
+    $convert $file -quality 50 -resize 50% "$OUT/halfres/other-data/${name%.*}.webp" &
     pids+=($!)
     echo "Converting $name to WebP"
-    magick $file -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/other-data/${name%.*}.png" &
+    $convert $file -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/other-data/${name%.*}.png" &
     pids+=($!)
     echo "Converting $name to OpenGraph"
 done
