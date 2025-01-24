@@ -29,11 +29,11 @@ fi
 # Copy Overlay SVGs
 ##########################
 for file in $(find ./my-data -name '*.svg'); do
-    cp $file $OUT/fullres/my-data/$(basename $file).svg
+    cp $file $OUT/fullres/my-data/$(basename $file)
 done
 
 for file in $(find ./other-data -name '*.svg'); do
-    cp $file $OUT/fullres/other-data/$(basename $file).svg
+    cp $file $OUT/fullres/other-data/$(basename $file)
 done
 
 ##########################
