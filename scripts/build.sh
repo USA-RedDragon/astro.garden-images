@@ -26,6 +26,17 @@ if [ -x "$(command -v magick)" ]; then
 fi
 
 ##########################
+# Copy Overlay SVGs
+##########################
+for file in $(find ./my-data -name '*.svg'); do
+    cp $file $OUT/fullres/my-data/$(basename $file).svg
+done
+
+for file in $(find ./other-data -name '*.svg'); do
+    cp $file $OUT/fullres/other-data/$(basename $file).svg
+done
+
+##########################
 # Optipng fullres
 ##########################
 for file in $(find ./my-data -name '*.png'); do
@@ -100,9 +111,6 @@ files=$(find ./$OUT/fullres/my-data -name '*.png')
 for file in $files; do
     basename=$(basename $file)
     export name=${basename%.*}
-    if [[ $name == *_annotated ]]; then
-        continue
-    fi
     export width=$(identify -format "%[w]" $file)
     export height=$(identify -format "%[h]" $file)
     cp ./my-data/${name}.json $OUT/my-data/${name}.json
@@ -116,9 +124,6 @@ files=$(find ./$OUT/fullres/other-data -name '*.png')
 for file in $files; do
     basename=$(basename $file)
     export name=${basename%.*}
-    if [[ $name == *_annotated ]]; then
-        continue
-    fi
     export width="$(identify -format "%[w]" $file)"
     export height="$(identify -format "%[h]" $file)"
     cp ./other-data/${name}.json $OUT/other-data/${name}.json

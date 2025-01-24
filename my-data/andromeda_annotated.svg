@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 6171 4125"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseProfile="tiny">
+<title>PixInsight SVG Document</title>
+<desc>Generated with PixInsight Core 1.8.9-3 (x64)</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family="SF Pro Text" font-size="12" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#ffffff" stroke-opacity="0.501961" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="SF Pro Text" font-size="12" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" vector-effect="none" points="9015.61,86.7004 8879.82,344.194 8743.5,601.335 8606.64,858.125 8469.25,1114.57 8331.32,1370.67 8192.86,1626.43 8053.86,1881.84 7914.34,2136.92 7774.28,2391.66 7633.69,2646.06 7492.56,2900.11 7350.89,3153.83 7208.67,3407.21 7065.91,3660.25 6922.6,3912.97 6778.75,4165.34 6634.34,4417.38 6489.37,4669.09 6343.83,4920.45 6197.73,5171.5 6051.07,5422.23 5903.85,5672.66 5756.07,5922.79 5607.74,6172.62 5458.85,6422.17 5309.39,6671.42 5159.38,6920.39 5008.8,7169.07 " />
+<polyline fill="none" vector-effect="none" points="7769.07,-565.832 7634.93,-311.138 7500.26,-56.8 7365.05,197.186 7229.29,450.824 7092.97,704.123 6956.1,957.09 6818.67,1209.73 6680.71,1462.05 6542.26,1714.02 6403.33,1965.65 6263.88,2216.93 6123.88,2467.86 5983.29,2718.43 5842.11,2968.64 5700.39,3218.52 5558.12,3468.06 5415.31,3717.27 5271.92,3966.13 5127.97,4214.67 4983.46,4462.9 4838.4,4710.84 4692.79,4958.49 4546.62,5205.86 4399.9,5452.94 4252.62,5699.74 4104.78,5946.24 3956.37,6192.44 3807.39,6438.36 " />
+<polyline fill="none" vector-effect="none" points="6523.33,-1217.77 6390.85,-965.864 6257.84,-714.312 6124.28,-463.115 5990.18,-212.272 5855.54,38.2183 5720.33,288.365 5584.55,538.192 5448.21,787.704 5311.34,1036.89 5173.96,1285.73 5036.06,1534.22 4897.63,1782.36 4758.66,2030.14 4619.12,2277.57 4479.03,2524.65 4338.38,2771.38 4197.16,3017.77 4055.37,3263.84 3913.03,3509.59 3770.13,3755.04 3626.68,4000.21 3482.67,4245.11 3338.12,4489.73 3193,4734.05 3047.32,4978.08 2901.07,5221.81 2754.25,5465.25 2606.87,5708.38 " />
+<polyline fill="none" vector-effect="none" points="5277.95,-1869.32 5147.11,-1620.17 5015.72,-1371.38 4883.79,-1122.94 4751.32,-874.854 4618.3,-627.115 4484.73,-379.718 4350.63,-132.656 4216,114.072 4080.83,360.46 3945.11,606.501 3808.86,852.193 3672.06,1097.53 3534.71,1342.53 3396.81,1587.19 3258.35,1831.5 3119.33,2075.48 2979.75,2319.11 2839.59,2562.42 2698.86,2805.41 2557.56,3048.1 2415.69,3290.49 2273.26,3532.59 2130.27,3774.39 1986.71,4015.9 1842.59,4257.12 1697.9,4498.03 1552.65,4738.65 1406.83,4978.97 " />
+<polyline fill="none" vector-effect="none" points="4032.58,-2520.83 3903.4,-2274.44 3773.68,-2028.4 3643.41,-1782.7 3512.59,-1537.36 3381.24,-1292.37 3249.34,-1047.73 3116.89,-803.432 2983.9,-559.487 2850.36,-315.9 2716.28,-72.6825 2581.65,170.144 2446.48,412.57 2310.75,654.641 2174.46,896.416 2037.59,1137.91 1900.16,1379.1 1762.15,1619.99 1623.57,1860.58 1484.43,2100.85 1344.72,2340.82 1204.44,2580.48 1063.61,2819.84 922.206,3058.89 780.24,3297.64 637.708,3536.08 494.607,3774.22 350.936,4012.06 206.691,4249.57 " />
+<polyline fill="none" vector-effect="none" points="2786.76,-3172.77 2659.23,-2929.17 2531.16,-2685.92 2402.54,-2443.03 2273.38,-2200.5 2143.68,-1958.33 2013.42,-1716.51 1882.63,-1475.06 1751.28,-1233.97 1619.39,-993.254 1486.95,-752.902 1353.96,-512.908 1220.4,-273.246 1086.24,-33.8789 951.462,205.163 816.12,443.904 680.225,682.345 543.779,920.483 406.778,1158.31 269.221,1395.84 131.111,1633.05 -7.55654,1869.95 -146.786,2106.55 -286.579,2342.83 -426.94,2578.81 -567.87,2814.47 -709.371,3049.82 -851.446,3284.85 -994.095,3519.57 " />
+<polyline fill="none" vector-effect="none" points="9015.61,86.7004 8694.81,-81.2338 8374.09,-249.126 8053.45,-416.976 7732.86,-584.786 7412.32,-752.555 7091.83,-920.286 6771.38,-1087.98 6450.95,-1255.65 6130.53,-1423.29 5810.14,-1590.91 5489.76,-1758.52 5169.38,-1926.11 4849.01,-2093.71 4528.62,-2261.31 4208.23,-2428.94 3887.81,-2596.59 3567.35,-2764.27 3246.85,-2931.99 2926.29,-3099.75 2605.67,-3267.55 2284.98,-3435.39 1964.21,-3603.28 " />
+<polyline fill="none" vector-effect="none" points="8156.34,1693.65 7838.17,1521.22 7520.07,1348.82 7202.04,1176.46 6884.09,1004.12 6566.24,831.803 6248.49,659.529 5930.69,487.357 5612.87,315.234 5295.07,143.133 4977.29,-28.9405 4659.55,-200.975 4341.85,-372.979 4024.15,-544.984 3706.44,-717.012 3388.72,-889.081 3070.98,-1061.21 2753.19,-1233.4 2435.35,-1405.66 2117.45,-1577.96 1799.47,-1750.3 1481.4,-1922.67 1163.24,-2095.07 " />
+<polyline fill="none" vector-effect="none" points="7276.13,3287.18 6960.59,3110.28 6645.12,2933.41 6329.73,2756.58 6014.36,2579.76 5699.01,2402.97 5383.74,2226.21 5068.53,2049.51 4753.39,1872.87 4438.29,1696.27 4123.22,1519.72 3808.16,1343.19 3493.1,1166.65 3178.04,990.099 2862.97,813.503 2547.87,636.846 2232.76,460.092 1917.63,283.167 1602.47,106.338 1287.19,-70.3743 971.685,-247.089 656.095,-423.876 340.463,-600.705 " />
+<polyline fill="none" vector-effect="none" points="6374.56,4867.49 6061.61,4686.07 5748.71,4504.65 5435.85,4323.23 5123.03,4141.82 4810.28,3960.45 4497.6,3779.16 4185.01,3597.99 3872.48,3416.9 3560.01,3235.88 3247.57,3054.88 2935.14,2873.89 2622.69,2692.87 2310.21,2511.8 1997.7,2330.7 1685.15,2149.54 1372.56,1968.36 1059.92,1787.15 747.203,1605.92 434.417,1424.67 121.56,1243.42 -191.357,1062.14 -504.337,880.829 " />
+<polyline fill="none" vector-effect="none" points="5451.05,6435.2 5140.66,6249.25 4830.33,6063.34 4520.07,5877.47 4209.87,5691.64 3899.74,5505.86 3589.66,5320.14 3279.64,5134.49 2969.67,4948.9 2659.74,4763.36 2349.83,4577.85 2039.93,4392.35 1730.02,4206.85 1420.11,4021.35 1110.16,3835.82 800.183,3650.27 490.161,3464.67 180.088,3279.03 -130.042,3093.35 -440.232,2907.62 -750.484,2721.85 -1060.8,2536.05 -1371.19,2350.2 " />
+</g>
+
+<g fill="none" stroke="#8080ff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#8080ff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.769265,-0.638929,0.638929,-0.769265,3758.17,2409.1)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="142.257" ry="98.1083"/>
+</g>
+
+<g fill="none" stroke="#8080ff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#8080ff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.995755,-0.0920418,0.0920418,0.995755,3094.86,2047.56)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="3112.34" ry="1103.67"/>
+</g>
+
+<g fill="none" stroke="#8080ff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#8080ff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.773515,-0.633778,0.633778,-0.773515,2825.99,940.031)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="-5.68434e-14" rx="290.441" ry="163.169"/>
+</g>
+
+<g fill="none" stroke="#8080ff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.613715,-0.789528,0.789528,0.613715,5911.57,4009.3)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.1685" ry="10.5983"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.771958,-0.635674,0.635674,0.771958,6168.48,3323.9)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.4402" ry="6.58313"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.998089,-0.0617899,0.0617899,0.998089,6049.06,3073.19)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5843" ry="8.5876"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.832717,-0.553699,0.553699,0.832717,6088.52,2897.49)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.7588" ry="11.1124"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.351454,-0.936205,0.936205,-0.351454,5961.23,2938.77)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.0205" ry="6.16484"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="5989.03" cy="2709.28" rx="12.2461" ry="12.2461"/>
+<ellipse cx="5200.67" cy="3750.06" rx="11.8174" ry="11.8174"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.61248,-0.790486,0.790486,-0.61248,5875.48,2406.5)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.8174" ry="6.34631"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.786682,-0.617358,0.617358,-0.786682,4908.13,4100.9)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.4402" ry="6.73647"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="6169.01" cy="1790.25" rx="14.5785" ry="14.5785"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.998006,-0.0631169,0.0631169,0.998006,5561.21,2606.68)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.9502" ry="7.7157"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<circle cx="4907.5" cy="3572.98" r="12.4082"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.171845,-0.985124,0.985124,0.171845,5904.75,1584.17)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.8531" ry="4.50641"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.47759,-0.878583,0.878583,-0.47759,5253.74,2660.13)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5843" ry="10.0895"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<circle cx="4415.49" cy="4080.36" r="12.4082"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.999246,-0.0388348,0.0388348,0.999246,4755.61,3134.46)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.1757" ry="6.73402"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.990956,0.134188,-0.134188,0.990956,4793.06,2998.82)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.0205" ry="7.76107"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.994874,0.10112,-0.10112,0.994874,4639.53,3141.38)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.1685" ry="9.66575"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.903009,-0.429621,0.429621,0.903009,4895.43,2668.79)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.0932" ry="7.80806"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.879312,-0.476246,0.476246,0.879312,4889.03,2672.69)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5556" ry="2.83657"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.995156,0.0983054,-0.0983054,0.995156,4709.01,2775.61)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.8825" ry="8.22067"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.924579,-0.380991,0.380991,0.924579,4737.12,2699.96)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.0932" ry="8.76078"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.834637,-0.5508,0.5508,0.834637,4731.98,2630.06)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.6384" ry="10.3727"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.790498,-0.612465,0.612465,0.790498,3781.46,3719.11)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.326" ry="10.4911"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.319344,-0.947639,0.947639,0.319344,5405.71,636.723)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.8174" ry="5.92272"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.60533,-0.795974,0.795974,0.60533,3546.61,3633.64)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.4082" ry="10.3207"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.282766,-0.959189,0.959189,0.282766,3347.12,3949.57)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.3243" ry="5.17621"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.865012,-0.50175,0.50175,0.865012,4938.94,1023.94)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.1857" ry="4.99649"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.220635,-0.975356,0.975356,0.220635,4823.06,620.874)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.3597" ry="4.31882"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.998129,0.0611469,-0.0611469,0.998129,2865.41,3867.09)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.8174" ry="10.2925"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.546878,-0.837212,0.837212,-0.546878,4432.52,653.204)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5333" ry="6.19373"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.670256,-0.74213,0.74213,-0.670256,4302.68,744.275)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.4852" ry="7.58818"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.979438,0.201744,-0.201744,0.979438,4584.11,226.743)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5333" ry="5.64875"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.550125,-0.835082,0.835082,0.550125,2723.48,3459.31)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.8516" ry="9.97604"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.520034,-0.854146,0.854146,0.520034,2767.19,3382.69)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.7549" ry="10.2381"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.465601,-0.884995,0.884995,0.465601,4353.72,370.254)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.4082" ry="10.5611"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.958111,-0.286399,0.286399,0.958111,2633.65,3361.74)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.3597" ry="5.43708"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.30034,-0.953832,0.953832,0.30034,2439.52,3547.42)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.2461" ry="7.37898"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.88139,-0.472388,0.472388,0.88139,1842.38,4021.39)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.1685" ry="8.41852"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.765547,-0.64338,0.64338,0.765547,3782.13,560.614)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.1696" ry="4.55027"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.60211,-0.798413,0.798413,0.60211,3641.52,642.711)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.4926" ry="10.1544"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.906079,0.423109,-0.423109,0.906079,3470.34,571.837)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.2458" ry="6.47126"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.672837,-0.739791,0.739791,-0.672837,1623.53,3650.15)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.8825" ry="7.67197"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.999916,0.0129851,-0.0129851,0.999916,1564.01,3690.2)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.6384" ry="10.1366"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.922786,0.385314,-0.385314,0.922786,1565.26,3490.66)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5843" ry="8.01441"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.217518,-0.976056,0.976056,-0.217518,1796.81,3067.05)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.1685" ry="8.41852"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.928257,0.371939,-0.371939,0.928257,1275.93,3744.78)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.2388" ry="4.79423"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.25131,-0.967907,0.967907,0.25131,1504.47,3187.14)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.2923" ry="8.18056"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.85636,-0.516379,0.516379,-0.85636,2881.54,387.422)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.1757" ry="3.70062"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.966475,-0.256759,0.256759,0.966475,669.771,4092.05)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="2.27374e-13" rx="11.9502" ry="5.33796"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.634321,-0.77307,0.77307,-0.634321,1102.9,3135.56)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.4082" ry="9.41258"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.804547,-0.593889,0.593889,-0.804547,2318.51,907.912)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.1675" ry="3.78406"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.973906,-0.22695,0.22695,0.973906,747.261,3545.53)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.2174" ry="9.54753"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.756979,-0.653439,0.653439,0.756979,397.942,4117.17)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.8174" ry="7.62994"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.268619,-0.963246,0.963246,0.268619,2123.49,1159.4)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5556" ry="2.90264"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.960977,0.276627,-0.276627,0.960977,2596.78,154.696)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="29.722" ry="14.2259"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="832.537" cy="3042.84" rx="12.7588" ry="12.7588"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.0236633,-0.99972,0.99972,-0.0236633,834.341,3010.23)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.6953" ry="5.99805"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.13299,-0.991117,0.991117,0.13299,833.429,3005.65)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5843" ry="8.78763"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.224829,-0.974398,0.974398,0.224829,429.329,3627.46)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.3243" ry="4.83072"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.818806,-0.574071,0.574071,0.818806,431.521,3561.21)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.5792" ry="9.99204"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="371.457" cy="3615.68" rx="11.6384" ry="11.6384"/>
+<ellipse cx="2071.45" cy="664.052" rx="11.6384" ry="11.6384"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.591293,-0.806457,0.806457,-0.591293,626.488,3150.19)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.3597" ry="5.82593"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="365.627" cy="3536.53" rx="12.2461" ry="12.2461"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.956106,-0.293022,0.293022,0.956106,372.495,3515)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="12.0932" ry="9.60601"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.132886,-0.991131,0.991131,0.132886,702.068,2913.04)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.3597" ry="8.8179"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="391.133" cy="3357.51" rx="12.8516" ry="12.8516"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.250798,-0.968039,0.968039,0.250798,1549.74,694.797)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.2388" ry="7.25636"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.786863,-0.617128,0.617128,-0.786863,731.708,1636.85)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.6953" ry="7.72698"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.299818,-0.953996,0.953996,0.299818,1399.62,421.271)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.7549" ry="5.25074"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.218897,-0.975748,0.975748,-0.218897,1400.92,202.854)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.1857" ry="3.96885"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.930161,0.367152,-0.367152,0.930161,1047.18,447.055)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.9502" ry="7.89542"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.351484,-0.936194,0.936194,0.351484,948.038,482.529)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.5843" ry="8.5876"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(-0.649962,-0.759966,0.759966,-0.649962,939.155,196.255)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+<ellipse cx="0" cy="0" rx="11.3597" ry="6.68906"/>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#8080ff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+>
+<text fill="#8080ff" fill-opacity="1" stroke="none" xml:space="preserve" x="3769.16" y="2421.6" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+ >M32</text>
+<text fill="#8080ff" fill-opacity="1" stroke="none" xml:space="preserve" x="3063.36" y="2036.56" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+ >M31</text>
+<text fill="#8080ff" fill-opacity="1" stroke="none" xml:space="preserve" x="2941.86" y="2090.56" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+ >Andromeda Galaxy</text>
+<text fill="#8080ff" fill-opacity="1" stroke="none" xml:space="preserve" x="2836.98" y="952.531" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+ >M110</text>
+</g>
+
+<g fill="none" stroke="#ff8080" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" vector-effect="none" points="4325.69,1867.74 4330.69,1867.74 " />
+<polyline fill="none" vector-effect="none" points="4345.69,1867.74 4340.69,1867.74 " />
+<polyline fill="none" vector-effect="none" points="4335.69,1877.74 4335.69,1872.74 " />
+<polyline fill="none" vector-effect="none" points="4335.69,1857.74 4335.69,1862.74 " />
+</g>
+
+<g fill="none" stroke="#ff8080" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+>
+<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="4346.69" y="1880.24" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+ >NGC206</text>
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+>
+<polyline fill="none" vector-effect="none" points="4755.6,2786.61 4760.6,2786.61 " />
+<polyline fill="none" vector-effect="none" points="4775.6,2786.61 4770.6,2786.61 " />
+<polyline fill="none" vector-effect="none" points="4765.6,2796.61 4765.6,2791.61 " />
+<polyline fill="none" vector-effect="none" points="4765.6,2776.61 4765.6,2781.61 " />
+<polyline fill="none" vector-effect="none" points="4654.55,2626.61 4659.55,2626.61 " />
+<polyline fill="none" vector-effect="none" points="4674.55,2626.61 4669.55,2626.61 " />
+<polyline fill="none" vector-effect="none" points="4664.55,2636.61 4664.55,2631.61 " />
+<polyline fill="none" vector-effect="none" points="4664.55,2616.61 4664.55,2621.61 " />
+<polyline fill="none" vector-effect="none" points="4246.57,2648.31 4251.57,2648.31 " />
+<polyline fill="none" vector-effect="none" points="4266.57,2648.31 4261.57,2648.31 " />
+<polyline fill="none" vector-effect="none" points="4256.57,2658.31 4256.57,2653.31 " />
+<polyline fill="none" vector-effect="none" points="4256.57,2638.31 4256.57,2643.31 " />
+<polyline fill="none" vector-effect="none" points="4865.02,1494.19 4870.02,1494.19 " />
+<polyline fill="none" vector-effect="none" points="4885.02,1494.19 4880.02,1494.19 " />
+<polyline fill="none" vector-effect="none" points="4875.02,1504.19 4875.02,1499.19 " />
+<polyline fill="none" vector-effect="none" points="4875.02,1484.19 4875.02,1489.19 " />
+<polyline fill="none" vector-effect="none" points="2365.3,3511 2370.3,3511 " />
+<polyline fill="none" vector-effect="none" points="2385.3,3511 2380.3,3511 " />
+<polyline fill="none" vector-effect="none" points="2375.3,3521 2375.3,3516 " />
+<polyline fill="none" vector-effect="none" points="2375.3,3501 2375.3,3506 " />
+<polyline fill="none" vector-effect="none" points="2371.01,3442.89 2376.01,3442.89 " />
+<polyline fill="none" vector-effect="none" points="2391.01,3442.89 2386.01,3442.89 " />
+<polyline fill="none" vector-effect="none" points="2381.01,3452.89 2381.01,3447.89 " />
+<polyline fill="none" vector-effect="none" points="2381.01,3432.89 2381.01,3437.89 " />
+<polyline fill="none" vector-effect="none" points="3952.06,431.676 3957.06,431.676 " />
+<polyline fill="none" vector-effect="none" points="3972.06,431.676 3967.06,431.676 " />
+<polyline fill="none" vector-effect="none" points="3962.06,441.676 3962.06,436.676 " />
+<polyline fill="none" vector-effect="none" points="3962.06,421.676 3962.06,426.676 " />
+<polyline fill="none" vector-effect="none" points="3120.86,728.337 3125.86,728.337 " />
+<polyline fill="none" vector-effect="none" points="3140.86,728.337 3135.86,728.337 " />
+<polyline fill="none" vector-effect="none" points="3130.86,738.337 3130.86,733.337 " />
+<polyline fill="none" vector-effect="none" points="3130.86,718.337 3130.86,723.337 " />
+<polyline fill="none" vector-effect="none" points="36.9191,682.74 41.9191,682.74 " />
+<polyline fill="none" vector-effect="none" points="56.9191,682.74 51.9191,682.74 " />
+<polyline fill="none" vector-effect="none" points="46.9191,692.74 46.9191,687.74 " />
+<polyline fill="none" vector-effect="none" points="46.9191,672.74 46.9191,677.74 " />
+</g>
+
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5746.56" y="4018.8" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2149841</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="6003.47" y="3333.4" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2150958</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5884.05" y="3082.69" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2153074</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5923.52" y="2895.99" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2153530</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5796.22" y="2948.27" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2154285</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5824.03" y="2718.78" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2155019</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5211.67" y="3759.56" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2156511</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5886.47" y="2416" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2157179</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4831.13" y="4089.9" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2157180</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="6050" y="1799.75" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2263</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5572.2" y="2616.18" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2158652</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4918.48" y="3582.48" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2159387</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5915.73" y="1593.67" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2160264</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5264.73" y="2669.63" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2160642</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4426.48" y="4089.86" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2160820</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4678.61" y="3123.46" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2162367</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4804.05" y="3008.32" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2162656</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4562.52" y="3171.38" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2163200</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4841.42" y="2698.79" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2489</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4835.02" y="2661.69" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2491</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4776.59" y="2796.11" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2523</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4590" y="2774.11" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2524</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4572.11" y="2709.46" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2164256</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4737.47" y="2624.56" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2506</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4545.53" y="2636.11" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2509</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3792.45" y="3728.61" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2166758</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5416.7" y="646.223" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2167611</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4267.56" y="2657.81" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2544</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4886.02" y="1503.69" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2318</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3557.59" y="3643.14" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2168731</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3358.11" y="3959.07" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2168810</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4949.94" y="1033.44" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2169318</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4834.05" y="630.374" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2171657</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2876.41" y="3876.59" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2172440</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4443.52" y="662.704" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2174300</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4313.67" y="753.775" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2174839</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4595.11" y="236.243" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2174855</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2734.47" y="3468.81" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2175082</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2690.17" y="3412.69" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2175091</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4364.72" y="379.754" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2175999</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2556.64" y="3350.74" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2176150</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2362.52" y="3577.42" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2176787</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2386.3" y="3520.5" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2772</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2392" y="3452.39" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2748</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3973.05" y="441.176" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC3087882</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1853.38" y="4030.89" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2179135</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3793.13" y="570.114" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2179524</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3652.5" y="652.211" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2180265</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3481.33" y="581.337" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2304</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1546.53" y="3639.15" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2182313</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1575" y="3699.7" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2182572</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1576.25" y="3500.16" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2183445</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1807.8" y="3076.55" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2183588</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3141.86" y="737.837" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC3087883</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1286.92" y="3754.28" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2184533</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1515.47" y="3196.64" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2185341</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2892.53" y="396.922" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2187102</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="592.766" y="4081.05" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2187628</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1113.89" y="3145.06" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2188727</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2329.5" y="917.412" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2189331</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="758.25" y="3555.03" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2189655</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="320.938" y="4106.17" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2189690</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2134.48" y="1168.9" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC90494</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2607.78" y="164.196" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2314</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="755.531" y="3072.84" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2191409</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="669.328" y="3019.73" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2191556</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="844.422" y="3015.15" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2191582</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="352.328" y="3657.46" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2191863</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="442.516" y="3559.71" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2192157</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="294.453" y="3604.68" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2192383</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2082.44" y="673.552" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2192544</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="637.484" y="3159.69" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2192580</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="200.625" y="3557.03" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2192841</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="295.484" y="3504" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2192895</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="713.063" y="2922.54" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2193157</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="402.125" y="3367.01" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2193501</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1560.73" y="704.297" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2196984</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="742.703" y="1646.35" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2199553</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1410.61" y="430.771" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2199828</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1411.91" y="212.354" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2200991</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="970.172" y="436.055" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2203100</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="959.031" y="492.029" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2203873</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="950.141" y="205.755" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC2205548</text>
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="57.9063" y="692.24" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >PGC3087789</text>
+</g>
+
+<g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="6049.98" y="2627.73" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >+39°45′</text>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4824.58" y="1940.77" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >+40°30′</text>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3599.86" y="1254.48" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >+41°15′</text>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2375.13" y="567.97" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >+42°</text>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5684.66" y="354.117" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >0ʰ35ᵐ</text>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4824.58" y="1912.77" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >0ʰ40ᵐ</text>
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3943.08" y="3457.81" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+ >0ʰ45ᵐ</text>
+</g>
+</g>
+</svg>
