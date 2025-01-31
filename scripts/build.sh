@@ -77,7 +77,7 @@ for file in $(find ./$OUT/fullres/my-data -name '*.png'); do
     $convert $file -quality 50 -resize 50% "$OUT/halfres/my-data/${name%.*}.webp" &
     pids+=($!)
     echo "Converting $name to WebP"
-    $convert $file -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/my-data/${name%.*}.png" &
+    $convert $file -quality 50 -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/my-data/${name%.*}.webp" &
     pids+=($!)
     echo "Converting $name to OpenGraph"
 done
@@ -87,7 +87,7 @@ for file in $(find ./$OUT/fullres/other-data -name '*.png'); do
     $convert $file -quality 50 -resize 50% "$OUT/halfres/other-data/${name%.*}.webp" &
     pids+=($!)
     echo "Converting $name to WebP"
-    $convert $file -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/other-data/${name%.*}.png" &
+    $convert $file -quality 50 -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/other-data/${name%.*}.webp" &
     pids+=($!)
     echo "Converting $name to OpenGraph"
 done
