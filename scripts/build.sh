@@ -37,34 +37,18 @@ for file in $(find ./other-data -name '*.svg'); do
 done
 
 ##########################
-# Optipng fullres
+# fullres
 ##########################
 for file in $(find ./my-data -name '*.png'); do
     name=$(basename $file)
     fullname="$(dirname $file)/$(basename $file)"
-    optipng -force -clobber -quiet -preserve -o 5 -out "$OUT/fullres/${fullname}" "$file" &
-    pids+=($!)
-    echo "Minifying $fullname"
+    cp -v "$file" "$OUT/fullres/${fullname}"
 done
 
 for file in $(find ./other-data -name '*.png'); do
     name=$(basename $file)
     fullname="$(dirname $file)/$(basename $file)"
-    optipng -force -clobber -quiet -preserve -o 5 -out "$OUT/fullres/${fullname}" "$file" &
-    pids+=($!)
-    echo "Minifying $fullname"
-done
-
-total_jobs=${#pids[*]}
-
-while [ ${#pids[*]} -gt 0 ]; do
-    echo "Waiting for ${#pids[*]} jobs to finish"
-    for pid in ${pids[*]}; do
-        if ! kill -0 $pid 2> /dev/null; then
-            pids=(${pids[@]/$pid})
-        fi
-    done
-    sleep 5
+    cp -v "$file" "$OUT/fullres/${fullname}"
 done
 
 pids=()
