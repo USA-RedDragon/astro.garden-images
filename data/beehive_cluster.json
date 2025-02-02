@@ -1,5 +1,18 @@
 {
     "title": "Beehive Cluster",
     "annotated": true,
+    "filters": ["luminance", "red", "green", "blue"],
+    "frames": {
+        "luminance": 20,
+        "red": 20,
+        "green": 20,
+        "blue": 20
+    },
+    "integrationSeconds": {
+        "luminance": 300,
+        "red": 300,
+        "green": 300,
+        "blue": 300
+    },
     "text": "The Beehive Cluster is an open cluster in the constellation Cancer."
 }
