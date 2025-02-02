@@ -21,34 +21,19 @@ jobs:
       - run: ./scripts/build.sh
       - name: Test output
         run: |
-          # Make sure ./dist/generated/fullres/my-data has png files
-          if [ -z "$(ls -A ./dist/generated/fullres/my-data)" ]; then
-            echo "No files found in ./dist/generated/fullres/my-data"
+          # Make sure ./dist/generated/fullres has png files
+          if [ -z "$(ls -A ./dist/generated/fullres)" ]; then
+            echo "No files found in ./dist/generated/fullres"
             exit 1
           fi
 
-          if [ -z "$(ls -A ./dist/generated/fullres/other-data)" ]; then
-            echo "No files found in ./dist/generated/fullres/other-data"
+          if [ -z "$(ls -A ./dist/generated/halfres)" ]; then
+            echo "No files found in ./dist/generated/halfres"
             exit 1
           fi
 
-          if [ -z "$(ls -A ./dist/generated/halfres/my-data)" ]; then
-            echo "No files found in ./dist/generated/halfres/my-data"
-            exit 1
-          fi
-
-          if [ -z "$(ls -A ./dist/generated/halfres/other-data)" ]; then
-            echo "No files found in ./dist/generated/halfres/other-data"
-            exit 1
-          fi
-
-          if [ -z "$(ls -A ./dist/generated/social/my-data)" ]; then
-            echo "No files found in ./dist/generated/social/my-data"
-            exit 1
-          fi
-
-          if [ -z "$(ls -A ./dist/generated/social/other-data)" ]; then
-            echo "No files found in ./dist/generated/social/other-data"
+          if [ -z "$(ls -A ./dist/generated/social)" ]; then
+            echo "No files found in ./dist/generated/social"
             exit 1
           fi
 

@@ -6,7 +6,7 @@ set -euo pipefail
 
 OUT="./dist/generated/"
 rm -rf $OUT
-mkdir -p $OUT/my-data $OUT/other-data $OUT/fullres/my-data $OUT/fullres/other-data $OUT/halfres/my-data $OUT/halfres/other-data $OUT/social/my-data $OUT/social/other-data
+mkdir -p $OUT/data $OUT/fullres $OUT/halfres $OUT/social
 
 pids=()
 
@@ -28,27 +28,15 @@ fi
 ##########################
 # Copy Overlay SVGs
 ##########################
-for file in $(find ./my-data -name '*.svg'); do
-    cp $file $OUT/fullres/my-data/$(basename $file)
-done
-
-for file in $(find ./other-data -name '*.svg'); do
-    cp $file $OUT/fullres/other-data/$(basename $file)
+for file in $(find ./data -name '*.svg'); do
+    cp $file $OUT/fullres/$(basename $file)
 done
 
 ##########################
 # fullres
 ##########################
-for file in $(find ./my-data -name '*.png'); do
-    name=$(basename $file)
-    fullname="$(dirname $file)/$(basename $file)"
-    cp -v "$file" "$OUT/fullres/${fullname}"
-done
-
-for file in $(find ./other-data -name '*.png'); do
-    name=$(basename $file)
-    fullname="$(dirname $file)/$(basename $file)"
-    cp -v "$file" "$OUT/fullres/${fullname}"
+for file in $(find ./data -name '*.png'); do
+    cp -v "$file" "$OUT/fullres/$(basename $file)"
 done
 
 pids=()
@@ -56,22 +44,12 @@ pids=()
 ##########################
 # WebP + OpenGraph halfres
 ##########################
-for file in $(find ./$OUT/fullres/my-data -name '*.png'); do
+for file in $(find ./$OUT/fullres -name '*.png'); do
     name=$(basename $file)
-    $convert $file -quality 50 -resize 50% "$OUT/halfres/my-data/${name%.*}.webp" &
+    $convert $file -quality 50 -resize 50% "$OUT/halfres/${name%.*}.webp" &
     pids+=($!)
     echo "Converting $name to WebP"
-    $convert $file -quality 50 -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/my-data/${name%.*}.webp" &
-    pids+=($!)
-    echo "Converting $name to OpenGraph"
-done
-
-for file in $(find ./$OUT/fullres/other-data -name '*.png'); do
-    name=$(basename $file)
-    $convert $file -quality 50 -resize 50% "$OUT/halfres/other-data/${name%.*}.webp" &
-    pids+=($!)
-    echo "Converting $name to WebP"
-    $convert $file -quality 50 -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/other-data/${name%.*}.webp" &
+    $convert $file -quality 50 -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/${name%.*}.webp" &
     pids+=($!)
     echo "Converting $name to OpenGraph"
 done
@@ -91,31 +69,18 @@ done
 ##########################
 # Combine JSONs
 ##########################
-files=$(find ./$OUT/fullres/my-data -name '*.png')
+files=$(find ./$OUT/fullres -name '*.png')
 for file in $files; do
     basename=$(basename $file)
     export name=${basename%.*}
     export width=$(identify -format "%[w]" $file)
     export height=$(identify -format "%[h]" $file)
-    cp ./my-data/${name}.json $OUT/my-data/${name}.json
-    yq -i -o json '.src = "my-data/" + strenv(name)' $OUT/my-data/${name}.json
-    yq -i -o json '.width = env(width)' $OUT/my-data/${name}.json
-    yq -i -o json '.height = env(height)' $OUT/my-data/${name}.json
+    cp ./data/${name}.json $OUT/data/${name}.json
+    yq -i -o json '.src = strenv(name)' $OUT/data/${name}.json
+    yq -i -o json '.width = env(width)' $OUT/data/${name}.json
+    yq -i -o json '.height = env(height)' $OUT/data/${name}.json
     echo "Creating JSON for $name"
 done
 
-files=$(find ./$OUT/fullres/other-data -name '*.png')
-for file in $files; do
-    basename=$(basename $file)
-    export name=${basename%.*}
-    export width="$(identify -format "%[w]" $file)"
-    export height="$(identify -format "%[h]" $file)"
-    cp ./other-data/${name}.json $OUT/other-data/${name}.json
-    yq -i -o json '.src = "other-data/" + strenv(name)' $OUT/other-data/${name}.json
-    yq -i -o json '.width = env(width)' $OUT/other-data/${name}.json
-    yq -i -o json '.height = env(height)' $OUT/other-data/${name}.json
-    echo "Creating JSON for $name"
-done
-yq ea '[.]' -o json $OUT/my-data/*.json > $OUT/my-data.json
-yq ea '[.]' -o json $OUT/other-data/*.json > $OUT/other-data.json
-rm -rf $OUT/my-data $OUT/other-data
+yq ea '[.]' -o json $OUT/data/*.json > $OUT/data.json
+rm -rf $OUT/data

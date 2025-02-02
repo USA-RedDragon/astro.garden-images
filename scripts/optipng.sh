@@ -17,14 +17,7 @@ trap cleanup TERM INT
 FILE=${1:-""}
 if [ -z "$FILE" ]; then
     # Minify all PNGs
-    for file in $(find ./my-data -name '*.png'); do
-        fullname="$(dirname $file)/$(basename $file)"
-        optipng -force -clobber -quiet -preserve -o 5 "$file" &
-        pids+=($!)
-        echo "Minifying $fullname"
-    done
-
-    for file in $(find ./other-data -name '*.png'); do
+    for file in $(find ./data -name '*.png'); do
         fullname="$(dirname $file)/$(basename $file)"
         optipng -force -clobber -quiet -preserve -o 5 "$file" &
         pids+=($!)

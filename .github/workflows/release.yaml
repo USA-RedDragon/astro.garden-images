@@ -5,8 +5,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - my-data/**
-      - other-data/**
+      - data/**
       - scripts/**
 
 concurrency:
