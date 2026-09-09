@@ -1,0 +1,16 @@
+{
+    "title": "Cosmic Bat Nebula",
+    "annotated": true,
+    "filters": ["red", "green", "blue"],
+    "frames": {
+        "red": 47,
+        "green": 50,
+        "blue": 42
+    },
+    "integrationSeconds": {
+        "red": 600,
+        "green": 600,
+        "blue": 600
+    },
+    "text": "The Cosmic Bat Nebula is a dark nebula in the constellation Ophiuchus."
+}
