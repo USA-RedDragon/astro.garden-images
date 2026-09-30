@@ -2,7 +2,7 @@
 <svg viewBox="0 0 6235 4151"
  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseProfile="tiny">
 <title>PixInsight SVG Document</title>
-<desc>Generated with PixInsight Core 1.8.9-3 (x64)</desc>
+<desc>Generated with PixInsight Core 1.9.4 (x64)</desc>
 <defs>
 </defs>
 <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
@@ -12,414 +12,128 @@ font-family="SF Pro Text" font-size="12" font-weight="400" font-style="normal"
 >
 </g>
 
-<g fill="none" stroke="#ffffff" stroke-opacity="0.501961" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+<g fill="none" stroke="#ffffff" stroke-opacity="0.501961" stroke-width="2.08" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
 font-family="SF Pro Text" font-size="12" font-weight="400" font-style="normal" 
 >
-<polyline fill="none" vector-effect="none" points="6550.78,5008.19 6341.27,5020.42 6131.72,5032.05 5922.12,5043.08 5712.47,5053.51 5502.78,5063.35 5293.05,5072.58 5083.31,5081.23 4873.54,5089.27 4663.77,5096.72 4454.01,5103.58 4244.24,5109.84 4034.49,5115.51 3824.75,5120.58 3615.01,5125.08 3405.25,5128.98 3195.49,5132.32 2985.71,5135.07 2775.91,5137.26 2566.11,5138.87 2356.3,5139.9 2146.5,5140.33 1936.69,5140.17 1726.88,5139.39 1517.07,5138.01 1307.25,5136.01 1097.41,5133.4 887.565,5130.18 677.704,5126.35 467.834,5121.9 257.956,5116.84 48.069,5111.17 -161.833,5104.92 " />
-<polyline fill="none" vector-effect="none" points="6492.58,4072.6 6285.81,4084.71 6079.2,4096.23 5872.42,4107.14 5665.53,4117.46 5458.58,4127.2 5251.59,4136.34 5044.57,4144.9 4837.54,4152.87 4630.49,4160.24 4423.44,4167.01 4216.41,4173.19 4009.41,4178.76 3802.48,4183.73 3595.58,4188.11 3388.65,4191.9 3181.62,4195.12 2974.49,4197.79 2767.42,4199.92 2560.38,4201.55 2353.34,4202.68 2146.3,4203.24 1939.26,4203.12 1732.22,4202.34 1525.18,4200.94 1318.13,4198.96 1111.07,4196.4 903.976,4193.24 696.821,4189.47 489.639,4185.08 282.489,4179.99 75.4584,4174.24 -131.773,4168.07 " />
-<polyline fill="none" vector-effect="none" points="6434.24,3137.13 6230.17,3149.17 6026.12,3160.61 5822.08,3171.46 5618.04,3181.73 5413.97,3191.41 5209.87,3200.51 5005.73,3209.01 4801.56,3216.92 4597.37,3224.24 4393.17,3230.95 4188.98,3237.07 3984.8,3242.58 3780.63,3247.5 3576.42,3251.82 3372.17,3255.54 3167.88,3258.69 2963.59,3261.26 2759.31,3263.27 2555.05,3264.73 2350.82,3265.65 2146.58,3266 1942.33,3265.78 1738.03,3265.01 1533.67,3263.71 1329.26,3261.82 1124.85,3259.35 920.486,3256.29 716.085,3252.62 511.631,3248.35 307.118,3243.46 102.556,3237.96 -102.046,3231.86 " />
-<polyline fill="none" vector-effect="none" points="6377.25,2202.02 6175.78,2213.98 5974.55,2225.38 5773.26,2236.2 5571.98,2246.43 5370.5,2256.06 5168.88,2265.1 4967.52,2273.55 4766.13,2281.41 4564.37,2288.68 4362.7,2295.36 4161.24,2301.46 3959.89,2306.97 3758.98,2311.9 3558.02,2316.24 3356.43,2319.99 3154.56,2323.15 2952.86,2325.7 2751.17,2327.66 2549.47,2329.04 2347.95,2329.85 2146.81,2330.11 1945.68,2329.81 1744.31,2328.95 1542.8,2327.53 1341.16,2325.55 1139.37,2323 937.59,2319.88 735.906,2316.17 534.189,2311.88 332.264,2306.99 130.129,2301.52 -72.0046,2295.45 " />
-<polyline fill="none" vector-effect="none" points="6321.97,1267.38 6122.49,1279.3 5923.78,1290.51 5725.03,1301.14 5526.22,1311.2 5327.14,1320.7 5128.13,1329.63 4929.56,1337.99 4730.57,1345.77 4531.74,1352.99 4333.1,1359.63 4134.35,1365.69 3935.44,1371.17 3736.75,1376.08 3538.09,1380.4 3339.3,1384.14 3140.61,1387.28 2941.61,1389.84 2743.24,1391.81 2544.52,1393.19 2345.64,1394 2146.63,1394.23 1947.45,1393.9 1748.45,1392.99 1549.84,1391.53 1351.26,1389.49 1152.37,1386.89 953.265,1383.71 754.12,1379.97 555.06,1375.65 356.004,1370.75 156.831,1365.27 -42.4874,1359.2 " />
-<polyline fill="none" vector-effect="none" points="6265.09,330.983 6068.97,342.87 5873.05,354.125 5676.98,364.787 5480.79,374.877 5284.56,384.392 5088.23,393.331 4891.86,401.69 4695.53,409.469 4499.62,416.669 4303.53,423.291 4107.18,429.333 3911.34,434.796 3715.4,439.679 3519.11,443.981 3323.06,447.702 3126.13,450.84 2930.49,453.396 2734.64,455.37 2538.73,456.763 2342.73,457.577 2146.49,457.815 1950.39,457.479 1754.14,456.57 1557.87,455.088 1361.76,453.035 1165.51,450.408 969.142,447.208 772.668,443.431 576.133,439.073 379.538,434.132 182.883,428.615 -13.7617,422.537 " />
-<polyline fill="none" vector-effect="none" points="6550.78,5008.19 6528.11,4641.34 6505.26,4274.57 6482.32,3907.87 6459.69,3541.16 6436.6,3174.36 6413.5,2807.58 6391.07,2440.97 6370.07,2074.67 6349.28,1708.42 6326.76,1341.89 6303.56,974.519 6281.54,607.394 6259.83,240.668 6238.79,-126.238 " />
-<polyline fill="none" vector-effect="none" points="5490.76,5063.89 5473.57,4696.83 5456.29,4329.83 5438.91,3962.9 5421.48,3596.02 5404.04,3229.18 5386.74,2862.4 5369.8,2495.72 5353.2,2129.12 5336.35,1762.49 5319.08,1395.71 5302.46,1028.73 5285.52,661.64 5269.33,294.515 5253.12,-72.6358 " />
-<polyline fill="none" vector-effect="none" points="4429.97,5104.33 4418.12,4737.09 4406.24,4369.93 4394.42,4002.84 4382.67,3635.84 4370.96,3268.92 4359.22,2902.09 4347.38,2535.31 4335.51,2168.55 4323.9,1801.74 4312.56,1434.84 4301.02,1067.85 4289.78,700.762 4278.11,333.593 4266.21,-33.6449 " />
-<polyline fill="none" vector-effect="none" points="3369.2,5129.6 3362.87,4762.17 3356.55,4394.8 3350.18,4027.5 3343.83,3660.35 3337.67,3293.37 3331.65,2926.53 3325.68,2559.78 3319.43,2193.03 3312.75,1826.19 3306.4,1459.23 3299.45,1092.18 3293.78,725.056 3287.8,357.855 3281.65,-9.42871 " />
-<polyline fill="none" vector-effect="none" points="2308.22,5140.05 2307.3,4772.61 2306.38,4405.21 2305.51,4037.82 2304.74,3670.36 2304.07,3303.04 2303.41,2936.05 2302.58,2569.21 2301.39,2202.4 2301.18,1835.54 2300.24,1468.6 2299.73,1101.57 2298.65,734.456 2297.55,367.253 2297.45,-0.0381454 " />
-<polyline fill="none" vector-effect="none" points="1247.13,5135.33 1251.69,4767.97 1256.28,4400.62 1260.87,4033.23 1265.48,3665.8 1270.2,3298.45 1275.23,2931.28 1280.27,2564.24 1284.89,2197.27 1288.82,1830.31 1293.3,1463.31 1298.25,1096.25 1302.52,729.12 1306.58,361.911 1311.07,-5.37747 " />
-<polyline fill="none" vector-effect="none" points="185.802,5114.96 195.769,4747.63 205.766,4380.35 215.939,4013.07 225.774,3646.2 235.777,3278.92 245.878,2911.71 256.07,2544.6 266.387,2177.54 276.173,1810.5 285.612,1443.45 295.185,1076.33 304.647,709.12 314.375,341.868 324.502,-25.3771 " />
+<polyline fill="none" vector-effect="none" points="6550.85,5008.7 6341.13,5020.93 6131.4,5032.52 5921.67,5043.47 5711.93,5053.8 5502.2,5063.54 5292.47,5072.7 5082.73,5081.29 4872.98,5089.31 4663.24,5096.74 4453.5,5103.58 4243.78,5109.82 4034.08,5115.48 3824.4,5120.55 3614.73,5125.04 3405.09,5128.93 3195.45,5132.24 2985.82,5134.95 2776.17,5137.07 2566.49,5138.59 2356.79,5139.51 2147.06,5139.82 1937.3,5139.53 1727.52,5138.66 1517.69,5137.22 1307.81,5135.21 1097.89,5132.63 887.94,5129.44 677.975,5125.63 468.016,5121.17 258.082,5116.06 48.189,5110.28 -161.665,5103.86 " />
+<polyline fill="none" vector-effect="none" points="6493.29,4072.65 6286.32,4084.91 6079.31,4096.77 5872.02,4107.44 5664.65,4117.46 5457.82,4127.01 5251.02,4136.01 5043.85,4144.75 4836.8,4152.85 4629.91,4160.2 4422.9,4166.85 4215.9,4173.18 4008.93,4178.86 3801.87,4183.84 3595.13,4188.28 3388.21,4192.15 3181.32,4195.35 2974.55,4197.89 2767.55,4199.98 2560.75,4201.71 2353.78,4202.79 2146.69,4203.09 1939.81,4202.78 1732.89,4201.82 1525.89,4200.5 1318.65,4198.65 1111.3,4196.1 904.274,4193.01 697.128,4189.45 489.794,4185.27 282.397,4180.41 75.1819,4174.49 -131.7,4167.66 " />
+<polyline fill="none" vector-effect="none" points="6435.7,3137.01 6231.65,3149.1 6027.46,3160.53 5822.4,3171.19 5618.44,3181.69 5414,3191.11 5209.78,3200.12 5005.94,3208.45 4801.22,3216.62 4596.78,3224.02 4392.42,3230.79 4188.18,3237.24 3984.35,3242.41 3779.62,3247.2 3575.81,3251.72 3371.69,3255.79 3167.57,3258.85 2963.6,3261.82 2759.75,3263.9 2555.22,3265.18 2351.03,3266.11 2146.96,3266.45 1942.69,3266.33 1738.3,3265.39 1533.81,3263.99 1329.59,3261.95 1125.29,3259.42 920.942,3256.4 716.814,3252.87 511.991,3248.42 307.439,3243.44 102.938,3237.91 -101.699,3231.81 " />
+<polyline fill="none" vector-effect="none" points="6379.06,2201.43 6176.95,2213.36 5974.79,2225.06 5773.33,2235.94 5571.88,2246.05 5370.22,2255.77 5168.68,2264.83 4966.73,2273.26 4765.6,2281.2 4564.43,2288.54 4362.77,2295.07 4160.63,2300.73 3959.4,2306.56 3758.49,2311.54 3556.72,2316.4 3355.49,2319.95 3153.63,2323.07 2952.06,2325.78 2751.31,2327.61 2549.66,2329.29 2348.26,2330.05 2146.81,2330.55 1945.25,2330.12 1743.77,2329.32 1542.33,2328.06 1341.06,2325.94 1138.93,2323.27 937.245,2319.93 735.601,2316.47 533.872,2312.26 332.016,2307.06 130.226,2301.62 -71.7749,2295.62 " />
+<polyline fill="none" vector-effect="none" points="6321.97,1266.95 6123.48,1278.59 5923.98,1289.77 5724.93,1300.54 5525.79,1310.8 5327.21,1320.44 5128.39,1329.36 4929.78,1337.92 4730.57,1345.81 4531.45,1353.03 4332.91,1359.6 4134.02,1365.69 3935.39,1371.22 3736.33,1376.17 3537.86,1380.54 3339.58,1384.1 3140.7,1387.43 2941.74,1390.12 2742.95,1392.06 2544.35,1393.58 2345.59,1394.52 2146.61,1394.76 1947.54,1394.42 1748.9,1393.69 1550.09,1392.07 1351.33,1390.02 1152.41,1387.45 953.513,1384.18 754.528,1380.73 555.423,1376.06 356.008,1370.89 156.743,1365.03 -42.2377,1359.04 " />
+<polyline fill="none" vector-effect="none" points="6265.37,331.2 6068.92,343.322 5872.29,354.355 5676.43,364.781 5480.29,374.942 5284.01,384.635 5087.94,393.641 4892,402.139 4695.56,409.864 4499.46,417.005 4303.41,423.631 4107.27,429.801 3911.21,435.314 3715.15,440.224 3519.12,444.44 3323.25,448.114 3127.05,451.041 2930.83,454.058 2734.86,456.068 2538.67,457.227 2342.58,458.134 2146.62,458.585 1950.46,458.108 1754.23,457.173 1558.02,455.944 1361.93,453.798 1165.6,450.982 969.207,447.734 772.717,443.783 576.639,439.354 380.522,434.425 183.631,428.649 -12.7534,422.455 " />
+<polyline fill="none" vector-effect="none" points="6550.85,5008.7 6528.29,4641.71 6505.73,4274.64 6483.09,3907.43 6460.31,3540.48 6437.94,3173.7 6415.47,2806.95 6393.29,2440.03 6371.38,2073.15 6348.82,1706.8 6326.36,1340.36 6304,973.452 6281.79,606.25 6259.88,239.217 6237.19,-127.45 " />
+<polyline fill="none" vector-effect="none" points="5490.16,5064.08 5472.91,4696.79 5455.57,4329.49 5438.09,3962.44 5420.89,3595.58 5403.98,3228.33 5386.9,2861.96 5369.51,2494.63 5352.8,2127.97 5335.75,1761.18 5319.48,1394.36 5302.09,1027.53 5285.21,660.551 5268.72,293.279 5251.08,-73.5123 " />
+<polyline fill="none" vector-effect="none" points="4429.43,5104.32 4417.54,4736.98 4405.66,4369.67 4393.73,4002.2 4381.84,3635.32 4370.18,3268.16 4358.58,2901.29 4347.04,2534.29 4335.46,2167.46 4324.14,1800.69 4312.41,1433.73 4300.95,1066.91 4289.54,699.724 4278.06,332.596 4266.45,-34.4083 " />
+<polyline fill="none" vector-effect="none" points="3368.99,5129.55 3362.55,4762.13 3356.1,4394.77 3349.78,4027.44 3343.77,3660.16 3337.14,3293.04 3331.25,2925.88 3324.84,2559.1 3318.53,2192.15 3312.32,1825.28 3306.77,1458.02 3300.12,1091.37 3293.99,724.257 3287.97,356.982 3281.71,-10.1904 " />
+<polyline fill="none" vector-effect="none" points="2308.63,5139.63 2307.74,4772.26 2306.78,4404.95 2305.7,4037.53 2304.97,3670.11 2304.24,3303.01 2303.08,2936.16 2302.33,2568.82 2301.85,2201.8 2300.8,1834.88 2300.04,1468.06 2299.29,1101.14 2298.29,734.014 2297.27,366.43 2296.97,-0.574173 " />
+<polyline fill="none" vector-effect="none" points="1247.56,5134.53 1252.16,4767.18 1256.72,4399.9 1261.15,4032.78 1265.7,3665.25 1270.59,3298.06 1275.26,2931.04 1279.95,2563.98 1284.46,2196.8 1288.71,1829.6 1293.26,1462.88 1298.15,1095.38 1302.11,728.299 1306.85,361.227 1310.29,-6.7362 " />
+<polyline fill="none" vector-effect="none" points="185.786,5114.14 195.604,4747.08 205.463,4380.19 215.644,4013.5 225.593,3646.51 236.002,3278.32 245.787,2910.42 255.961,2544.07 265.903,2176.66 276.332,1809.67 285.484,1442.44 295.221,1075.08 305.289,707.995 314.854,340.599 324.334,-26.9975 " />
 </g>
 
-<g fill="none" stroke="#ff8080" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+<g fill="none" stroke="#ff8080" stroke-opacity="1" stroke-width="2.08" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="133" font-weight="400" font-style="normal" 
 >
-<circle cx="3580.12" cy="2064.93" r="467.974"/>
-<circle cx="2723.54" cy="2049.05" r="467.974"/>
+<ellipse cx="3579.18" cy="2065.11" rx="467.985" ry="467.985"/>
+<ellipse cx="2723.77" cy="2049.68" rx="467.985" ry="467.985"/>
 </g>
 
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+<g fill="none" stroke="#d2b48c" stroke-opacity="1" stroke-width="2.08" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="133" font-weight="400" font-style="normal" 
 >
+<circle cx="5096.29" cy="2100.86" r="155.995"/>
 </g>
 
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.224255,-0.97453,0.97453,0.224255,3457.62,4046.5)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="2.08" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="133" font-weight="400" font-style="normal" 
 >
-<ellipse cx="0" cy="0" rx="12.1683" ry="8.22677"/>
+<circle cx="1432.65" cy="1413.24" r="26.4917"/>
 </g>
 
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+<g fill="none" stroke="#ffd700" stroke-opacity="1" stroke-width="2.08" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="133" font-weight="400" font-style="normal" 
 >
-<circle cx="1092.15" cy="3989.41" r="12.0931"/>
-<ellipse cx="1033.27" cy="3970.33" rx="14.6993" ry="14.6993"/>
-<circle cx="1429.23" cy="3747.54" r="11.8172"/>
-<circle cx="2174.43" cy="3661.13" r="16.2486"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.999994,0.00338491,-0.00338491,0.999994,5635.69,3500.83)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.8823" ry="7.15981"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<circle cx="2170.54" cy="3538.72" r="13.043"/>
-<ellipse cx="1710.45" cy="3511.6" rx="14.6993" ry="14.6993"/>
-<ellipse cx="81.2583" cy="3263.91" rx="14.6993" ry="14.6993"/>
-<circle cx="3269.78" cy="3249.39" r="12.579"/>
-<ellipse cx="261.265" cy="3214.16" rx="13.2422" ry="13.2422"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.260625,0.96544,-0.96544,0.260625,5985.14,3053.33)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="12.0931" ry="5.92294"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.329079,-0.944302,0.944302,0.329079,667.855,2989.28)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.6382" ry="5.08028"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<circle cx="4778.06" cy="2933.06" r="12.0203"/>
-<circle cx="6167.88" cy="2838.73" r="14.9455"/>
-<ellipse cx="74.5961" cy="2878.87" rx="13.5544" ry="13.5544"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.162146,0.986767,-0.986767,0.162146,110.915,2870.54)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.8823" ry="6.23594"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="1732.74" cy="2852.49" rx="13.3445" ry="13.3445"/>
-<circle cx="3479.12" cy="2766.44" r="13.043"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.873088,-0.487563,0.487563,0.873088,6043,2465.28)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.95" ry="8.26741"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="1682.59" cy="2532.4" rx="12.6678" ry="12.6678"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.771874,0.635776,-0.635776,0.771874,1576.14,2479.12)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.7548" ry="4.90022"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.183077,-0.983099,0.983099,0.183077,270.968,2378.27)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.2387" ry="9.34796"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<circle cx="764.854" cy="2287.08" r="11.5842"/>
-<circle cx="5179.52" cy="2145.95" r="16.7997"/>
-<ellipse cx="5213.04" cy="2097.11" rx="15.8458" ry="15.8458"/>
-<circle cx="5101.26" cy="2093.62" r="14.6993"/>
-<ellipse cx="4122.65" cy="2110.61" rx="15.8458" ry="15.8458"/>
-<ellipse cx="5116.66" cy="2047.68" rx="14.6993" ry="14.6993"/>
-<ellipse cx="5807.75" cy="1985.03" rx="14.2234" ry="14.2234"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.963569,0.26746,-0.26746,0.963569,5172.3,1950.53)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.7548" ry="6.02859"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.203135,-0.979151,0.979151,0.203135,6128.63,1841.88)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="12.3258" ry="6.32143"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<circle cx="1219.93" cy="1913.72" r="13.8818"/>
-<ellipse cx="6072.42" cy="1775.83" rx="11.3596" ry="11.3596"/>
-<ellipse cx="6130.72" cy="1772.5" rx="13.8818" ry="13.8818"/>
-<circle cx="4596.54" cy="1775.47" r="12.2459"/>
-<circle cx="5383.45" cy="1619.74" r="12.9462"/>
-<circle cx="4936.27" cy="1561.11" r="11.8172"/>
-<ellipse cx="4679.12" cy="1561.68" rx="14.6993" ry="14.6993"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.575571,0.817752,-0.817752,0.575571,1122.18,1595.58)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.1675" ry="6.27997"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.19848,-0.980105,0.980105,0.19848,2823.58,1572.08)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.6951" ry="3.78447"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<circle cx="1432.65" cy="1412.76" r="26.4911"/>
-<ellipse cx="3959.36" cy="1391.88" rx="14.6993" ry="14.6993"/>
-<ellipse cx="4068.66" cy="1312.91" rx="14.6993" ry="14.6993"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.316159,-0.948706,0.948706,0.316159,5238.5,1199.17)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.3089" ry="8.19255"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="539.411" cy="1142.62" rx="15.1967" ry="15.1967"/>
-<ellipse cx="1049.48" cy="969.046" rx="14.6993" ry="14.6993"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(0.992799,0.119788,-0.119788,0.992799,1109.28,905.464)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<ellipse cx="0" cy="0" rx="11.7548" ry="5.37299"/>
-</g>
-
-<g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
->
-<circle cx="475.054" cy="892.22" r="11.8172"/>
-<ellipse cx="6142.83" cy="614.323" rx="17.3657" ry="17.3657"/>
-<ellipse cx="3906.62" cy="579.149" rx="17.3657" ry="17.3657"/>
-<ellipse cx="5139.05" cy="472.911" rx="15.8458" ry="15.8458"/>
-<circle cx="377.186" cy="299.707" r="12.2459"/>
-<ellipse cx="5338.62" cy="75.7785" rx="16.5222" ry="16.5222"/>
+<polyline fill="none" vector-effect="none" points="1959.23,3061.18 1969.63,3061.18 " />
+<polyline fill="none" vector-effect="none" points="1995.43,3061.18 1985.03,3061.18 " />
+<polyline fill="none" vector-effect="none" points="1977.33,3079.28 1977.33,3068.88 " />
+<polyline fill="none" vector-effect="none" points="1977.33,3043.08 1977.33,3053.48 " />
+<polyline fill="none" vector-effect="none" points="3769.24,1344.35 3779.64,1344.35 " />
+<polyline fill="none" vector-effect="none" points="3805.44,1344.35 3795.04,1344.35 " />
+<polyline fill="none" vector-effect="none" points="3787.34,1362.45 3787.34,1352.05 " />
+<polyline fill="none" vector-effect="none" points="3787.34,1326.25 3787.34,1336.65 " />
+<polyline fill="none" vector-effect="none" points="5413.22,1042.39 5423.62,1042.39 " />
+<polyline fill="none" vector-effect="none" points="5449.42,1042.39 5439.02,1042.39 " />
+<polyline fill="none" vector-effect="none" points="5431.32,1060.49 5431.32,1050.09 " />
+<polyline fill="none" vector-effect="none" points="5431.32,1024.29 5431.32,1034.69 " />
+<polyline fill="none" vector-effect="none" points="3771.74,626.342 3782.14,626.342 " />
+<polyline fill="none" vector-effect="none" points="3807.94,626.342 3797.54,626.342 " />
+<polyline fill="none" vector-effect="none" points="3789.84,644.442 3789.84,634.042 " />
+<polyline fill="none" vector-effect="none" points="3789.84,608.242 3789.84,618.642 " />
 </g>
 
 <g fill="none" stroke="#ffd700" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="64" font-weight="400" font-style="normal" 
+font-family="DejaVu Sans" font-size="58" font-weight="400" font-style="normal" 
 >
-<polyline fill="none" vector-effect="none" points="1967.47,3060.2 1972.47,3060.2 " />
-<polyline fill="none" vector-effect="none" points="1987.47,3060.2 1982.47,3060.2 " />
-<polyline fill="none" vector-effect="none" points="1977.47,3070.2 1977.47,3065.2 " />
-<polyline fill="none" vector-effect="none" points="1977.47,3050.2 1977.47,3055.2 " />
-<polyline fill="none" vector-effect="none" points="3777.69,1344.3 3782.69,1344.3 " />
-<polyline fill="none" vector-effect="none" points="3797.69,1344.3 3792.69,1344.3 " />
-<polyline fill="none" vector-effect="none" points="3787.69,1354.3 3787.69,1349.3 " />
-<polyline fill="none" vector-effect="none" points="3787.69,1334.3 3787.69,1339.3 " />
-<polyline fill="none" vector-effect="none" points="5421.59,1042.63 5426.59,1042.63 " />
-<polyline fill="none" vector-effect="none" points="5441.59,1042.63 5436.59,1042.63 " />
-<polyline fill="none" vector-effect="none" points="5431.59,1052.63 5431.59,1047.63 " />
-<polyline fill="none" vector-effect="none" points="5431.59,1032.63 5431.59,1037.63 " />
-<polyline fill="none" vector-effect="none" points="3780.09,625.648 3785.09,625.648 " />
-<polyline fill="none" vector-effect="none" points="3800.09,625.648 3795.09,625.648 " />
-<polyline fill="none" vector-effect="none" points="3790.09,635.648 3790.09,630.648 " />
-<polyline fill="none" vector-effect="none" points="3790.09,615.648 3790.09,620.648 " />
-</g>
-
-<g fill="none" stroke="#ffd700" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="28" font-weight="400" font-style="normal" 
->
-<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="1988.45" y="3071.2" font-family="DejaVu Sans" font-size="28" font-weight="400" font-style="normal" 
+<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="1997.5" y="3083.68" font-family="DejaVu Sans" font-size="58" font-weight="400" font-style="normal" 
  >10 Per</text>
-<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="3798.69" y="1357.8" font-family="DejaVu Sans" font-size="28" font-weight="400" font-style="normal" 
+<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="3807.52" y="1372.35" font-family="DejaVu Sans" font-size="58" font-weight="400" font-style="normal" 
  >7 χ </text>
-<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="3850.45" y="1357.8" font-family="DejaVu Sans" font-size="28" font-weight="400" font-style="normal" 
+<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="3914.75" y="1372.35" font-family="DejaVu Sans" font-size="58" font-weight="400" font-style="normal" 
  >Per</text>
-<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="5442.59" y="1053.63" font-family="DejaVu Sans" font-size="28" font-weight="400" font-style="normal" 
+<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="5451.5" y="1064.39" font-family="DejaVu Sans" font-size="58" font-weight="400" font-style="normal" 
  >5 Per</text>
-<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="3708.08" y="636.648" font-family="DejaVu Sans" font-size="28" font-weight="400" font-style="normal" 
+<text fill="#ffd700" fill-opacity="1" stroke="none" xml:space="preserve" x="3810" y="648.842" font-family="DejaVu Sans" font-size="58" font-weight="400" font-style="normal" 
  >8 Per</text>
 </g>
 
 <g fill="none" stroke="#ff8080" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+font-family="DejaVu Sans" font-size="67" font-weight="400" font-style="normal" 
 >
-<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="3516.11" y="2053.93" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="3445.67" y="2044.93" font-family="DejaVu Sans" font-size="67" font-weight="400" font-style="normal" 
  >NGC869</text>
-<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="3462.61" y="2101.93" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="3333.67" y="2137.29" font-family="DejaVu Sans" font-size="67" font-weight="400" font-style="normal" 
  >Double Cluster</text>
-<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="2659.53" y="2038.05" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="2589.77" y="2029.5" font-family="DejaVu Sans" font-size="67" font-weight="400" font-style="normal" 
  >NGC884</text>
-<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="2606.03" y="2086.05" font-family="DejaVu Sans" font-size="32" font-weight="400" font-style="normal" 
+<text fill="#ff8080" fill-opacity="1" stroke="none" xml:space="preserve" x="2478.27" y="2121.86" font-family="DejaVu Sans" font-size="67" font-weight="400" font-style="normal" 
  >Double Cluster</text>
+</g>
+
+<g fill="none" stroke="#d2b48c" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
+font-family="DejaVu Sans" font-size="42" font-weight="400" font-style="normal" 
+>
+<text fill="#d2b48c" fill-opacity="1" stroke="none" xml:space="preserve" x="5116.47" y="2117.36" font-family="DejaVu Sans" font-size="42" font-weight="400" font-style="normal" 
+ >B201</text>
 </g>
 
 <g fill="none" stroke="#00ffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
 >
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3468.61" y="4056" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168290</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1015.14" y="4019.41" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797154</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="956.25" y="3959.33" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797158</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1440.22" y="3757.04" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797143</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2185.42" y="3670.63" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168294</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5646.67" y="3510.33" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168284</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2181.53" y="3548.22" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168293</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1721.44" y="3521.1" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797122</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="86.75" y="3288.41" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797183</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3119.77" y="3258.89" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168289</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="184.25" y="3203.16" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797171</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5996.13" y="3062.83" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168280</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="678.844" y="2998.78" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2543133</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4789.05" y="2942.56" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168286</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="6017.88" y="2848.23" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168279</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="80.0938" y="2903.37" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797175</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="33.9063" y="2859.54" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2544811</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1743.73" y="2861.99" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168296</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3490.11" y="2775.94" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168288</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5877.98" y="2474.78" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2550299</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1693.58" y="2541.9" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168295</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1587.13" y="2488.62" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2551889</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="281.953" y="2387.77" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2553051</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="775.844" y="2296.58" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797147</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5190.52" y="2155.45" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168283</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5224.03" y="2106.61" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796987</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4936.25" y="2103.12" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796994</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4133.64" y="2120.11" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797022</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5127.66" y="2057.18" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796993</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5818.75" y="1994.53" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796970</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5183.28" y="1960.03" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2558934</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5963.63" y="1851.38" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2559809</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1230.92" y="1923.22" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797111</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5995.41" y="1805.83" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796963</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="6042.7" y="1761.5" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796961</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4607.53" y="1784.97" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797006</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5394.44" y="1629.24" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796977</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4947.27" y="1570.61" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796992</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4690.11" y="1571.18" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797002</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1133.17" y="1605.08" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168301</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2834.58" y="1581.58" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2564735</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1443.64" y="1422.26" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1452.83" y="1432.74" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >PGC2807107</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3882.34" y="1421.88" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797015</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4079.66" y="1322.41" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797012</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5249.5" y="1208.67" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC168281</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="550.406" y="1152.12" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797136</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1060.48" y="978.546" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797108</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1120.27" y="914.964" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2570715</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="486.047" y="901.72" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797134</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5977.83" y="623.823" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796950</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3917.61" y="588.649" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797010</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5150.05" y="482.411" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796972</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="388.172" y="309.207" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2797127</text>
-<text fill="#00ffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5349.61" y="85.2785" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
- >PGC2796965</text>
 </g>
 
 <g fill="none" stroke="#ffffff" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)"
-font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
 >
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3337.05" y="3284.12" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3336.55" y="3314.35" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >+56°30′</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3321.72" y="2348.58" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3320.77" y="2378.53" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >+57°</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3305.14" y="1412.72" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3305.41" y="1442.7" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >+57°30′</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3289.39" y="476.283" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3289.52" y="506.649" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >+58°</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5402.27" y="3191.95" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="5402.25" y="3191.63" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >2ʰ12ᵐ</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4369.77" y="3231.68" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="4368.92" y="3231.58" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >2ʰ16ᵐ</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3337.05" y="3256.12" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="3336.55" y="3256.35" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >2ʰ20ᵐ</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2304" y="3265.78" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="2304.19" y="3266.23" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >2ʰ24ᵐ</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1270.69" y="3261.18" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="1271" y="3261.31" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >2ʰ28ᵐ</text>
-<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="236.797" y="3241.64" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" 
+<text fill="#ffffff" fill-opacity="1" stroke="none" xml:space="preserve" x="237.016" y="3241.57" font-family="DejaVu Sans" font-size="50" font-weight="400" font-style="normal" 
  >2ʰ32ᵐ</text>
 </g>
 </g>
