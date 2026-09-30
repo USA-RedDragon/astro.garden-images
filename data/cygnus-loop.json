@@ -1,0 +1,20 @@
+{
+    "title": "Cygnus Loop",
+    "annotated": true,
+    "filters": ["red", "green", "blue", "ha", "oiii"],
+    "frames": {
+        "red": 357,
+        "green": 315,
+        "blue": 333,
+        "ha": 324,
+        "oiii": 326
+    },
+    "integrationSeconds": {
+        "red": 300,
+        "green": 300,
+        "blue": 300,
+        "ha": 600,
+        "oiii": 600
+    },
+    "text": "The Cygnus Loop is the remnant of a star that exploded some 10,000 to 20,000 years ago in the constellation Cygnus; its brightest arcs are the Veil Nebula."
+}
