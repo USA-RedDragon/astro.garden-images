@@ -51,6 +51,9 @@ for file in $(find ./$OUT/fullres -name '*.png'); do
     echo "Converting $name to WebP"
     $convert $file -quality 50 -background "transparent" -resize x630 -gravity center -extent 1200x630 "$OUT/social/${name%.*}.webp" &
     pids+=($!)
+    # JPEG too: Slack and some other link unfurlers don't show WebP
+    $convert $file -quality 85 -background black -resize x630 -gravity center -extent 1200x630 "$OUT/social/${name%.*}.jpg" &
+    pids+=($!)
     echo "Converting $name to OpenGraph"
 done
 
