@@ -351,6 +351,16 @@ function agProminence( sortBy )
    };
 }
 
+const agComponentArcsec = 60;
+
+// agSeparationArcsec is the angle between two (RA, Dec) points in degrees.
+function agSeparationArcsec( a, b )
+{
+   let r = Math.PI/180;
+   let c = Math.sin( a.y*r )*Math.sin( b.y*r ) + Math.cos( a.y*r )*Math.cos( b.y*r )*Math.cos( (a.x - b.x)*r );
+   return Math.acos( Math.min( 1, Math.max( -1, c ) ) )/r*3600;
+}
+
 // Loads the given layer set, keeps in-frame objects, removes cross-layer
 // duplicates (earlier layer wins), then keeps the most prominent `caps[name]`
 // objects per layer. Returns per-layer counts.
@@ -401,6 +411,17 @@ function agEvaluate( engine, selected, caps )
                if ( res.principal === null || o.diameter > res.principal.diameter )
                   res.principal = { name: o.name, diameter: o.diameter, galaxy: !!o["PGC"] };
          objs.sort( agProminence( l.agStyle.sortBy ) );
+         // Components of a multiple star (ζ Ori A and B) are separate
+         // catalogue entries with the same designation: keep the most
+         // prominent one within agComponentArcsec.
+         if ( l.layerName == "NamedStars" )
+            objs = objs.filter( function( o, i )
+            {
+               for ( let j = 0; j < i; ++j )
+                  if ( agSeparationArcsec( o.posRD, objs[j].posRD ) < agComponentArcsec )
+                     return false;
+               return true;
+            } );
          let total = objs.length;
          let cap = caps[l.layerName];
          if ( cap !== undefined && objs.length > cap )
