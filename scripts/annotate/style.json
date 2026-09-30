@@ -1,0 +1,145 @@
+{
+  "_comment": "Single source of truth for astro.garden overlays. Read by annotate.js; nothing here is read from or written to PixInsight's Settings. Colours are #rrggbb plus an opacity 0..1. labelFields has 8 slots (AnnotateImage positions); slot 4 is right of the marker, slot 7 below it.",
+  "version": 1,
+
+  "solver": {
+    "_comment": "ImageSolver 6.4.2 SolverConfiguration, as used for north-america (2026-09-29).",
+    "catalogMode": 2,
+    "catalog": "PPMXL",
+    "vizierServer": "https://vizier.cds.unistra.fr/",
+    "autoMagnitude": true,
+    "magnitude": 12,
+    "structureLayers": 5,
+    "minStructureSize": 0,
+    "hotPixelFilterRadius": 1,
+    "noiseReductionFilterRadius": 0,
+    "sensitivity": 0.5,
+    "peakResponse": 0.5,
+    "brightThreshold": 3,
+    "maxStarDistortion": 0.6,
+    "autoPSF": false,
+    "distortionCorrection": true,
+    "rbfType": "DDMThinPlateSpline",
+    "maxSplinePoints": 4000,
+    "splineOrder": 2,
+    "splineSmoothing": 0.005,
+    "enableSimplifier": true,
+    "simplifierRejectFraction": 0.10,
+    "outlierDetectionRadius": 160,
+    "outlierDetectionMinThreshold": 4,
+    "outlierDetectionSigma": 5,
+    "projection": 0,
+    "projectionOriginMode": 0,
+    "intersectionMode": 1,
+    "restrictToHQStars": false,
+    "tryApparentCoordinates": true,
+    "tryExhaustiveInitialAlignment": false,
+    "generateDistortModel": false,
+    "generateErrorImg": false,
+    "showStars": false,
+    "showStarMatches": false,
+    "showSimplifiedSurfaces": false,
+    "showDistortion": false
+  },
+
+  "seeds": {
+    "_comment": "Defaults used when the image carries no WCS/keywords and no override gives them. 1.92 arcsec/px = Apertura 75Q + ASI2600MM. Date fallback 2016-01-01 = Gaia DR3 epoch (only proper motion depends on it).",
+    "resolution": 1.92,
+    "xpixsz": 3.76,
+    "referenceSystem": "ICRS",
+    "fallbackDate": "2016-01-01T00:00:00",
+    "maxSurfaceResidualPx": 2
+  },
+
+  "engine": {
+    "_comment": "AnnotationEngine 2.3.1 properties. outputMode 2 = SVG only.",
+    "vizierServer": "https://vizier.cds.unistra.fr/",
+    "removeDuplicates": true,
+    "outputMode": 2,
+    "applySTF": false,
+    "smallSizeThreshold": 12,
+    "writeObjects": false,
+    "optimizeLabelPlacement": true,
+    "dropShadow": false,
+    "shadowOffset": 1,
+    "verticalShadow": true,
+    "scalingFactor": 1
+  },
+
+  "sizing": {
+    "_comment": "graphicsScale = width/referenceWidth. AnnotateImage draws lines at lineWidth*graphicsScale and text at labelSize*graphicsScale*textScale, so textScale stays constant to keep text proportional to width. A 6k image gets graphicsScale 2, textScale 2 (as north-america and cosmic-bat).",
+    "referenceWidth": 3000,
+    "textScale": 2,
+    "round": 2
+  },
+
+  "selection": {
+    "_comment": "Counts are unique labelled objects inside the frame after duplicate removal (grid labels and constellation names not counted). See README.",
+    "minLabels": 8,
+    "targetLabels": 12,
+    "maxPerLayer": 20,
+    "galacticLatitudeSplit": 30,
+    "roundTripTolerancePx": 5,
+    "priority": {
+      "milkyway": ["Sharpless", "LDN", "Barnard", "LBN", "VdB", "PGC"],
+      "galaxy":   ["PGC", "Sharpless", "LDN", "Barnard"]
+    }
+  },
+
+  "layers": [
+    { "name": "Grid", "role": "core", "density": 4,
+      "line":  { "color": "#ffffff", "opacity": 0.5, "width": 1 },
+      "label": { "color": "#ffffff", "opacity": 1, "size": 12, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "", "", "", ""] },
+
+    { "name": "Constellation Lines", "role": "core", "margin": 8,
+      "line":  { "color": "#ff8080", "opacity": 0.5, "width": 4 },
+      "label": { "color": "#ff8080", "opacity": 1, "size": 32, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "", "", "", ""] },
+
+    { "name": "NamedStars", "role": "core", "sortBy": "magnitude", "catalog": { "magMax": 1000 },
+      "line":  { "color": "#ffd700", "opacity": 1, "width": 1 },
+      "label": { "color": "#ffd700", "opacity": 1, "size": 14, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", "Common name"] },
+
+    { "name": "Messier", "role": "core", "sortBy": "magnitude", "catalog": {},
+      "line":  { "color": "#8080ff", "opacity": 1, "width": 1 },
+      "label": { "color": "#8080ff", "opacity": 1, "size": 16, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", "Common name"] },
+
+    { "name": "NGC-IC", "role": "core", "sortBy": "magnitude", "catalog": {},
+      "line":  { "color": "#ff8080", "opacity": 1, "width": 1 },
+      "label": { "color": "#ff8080", "opacity": 1, "size": 16, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", "Common name"] },
+
+    { "name": "Sharpless", "role": "optional", "sortBy": "diameter", "catalog": {},
+      "line":  { "color": "#ff9966", "opacity": 1, "width": 1 },
+      "label": { "color": "#ff9966", "opacity": 1, "size": 12, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", ""] },
+
+    { "name": "LBN", "role": "optional", "sortBy": "diameter", "catalog": {},
+      "line":  { "color": "#ffb07a", "opacity": 1, "width": 1 },
+      "label": { "color": "#ffb07a", "opacity": 1, "size": 10, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", ""] },
+
+    { "name": "LDN", "role": "optional", "sortBy": "diameter", "catalog": {},
+      "line":  { "color": "#bc8f8f", "opacity": 1, "width": 1 },
+      "label": { "color": "#f08080", "opacity": 1, "size": 10, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", ""] },
+
+    { "name": "Barnard", "role": "optional", "sortBy": "diameter", "catalog": {},
+      "line":  { "color": "#d2b48c", "opacity": 1, "width": 1 },
+      "label": { "color": "#d2b48c", "opacity": 1, "size": 10, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", ""] },
+
+    { "name": "VdB", "role": "optional", "sortBy": "magnitude", "catalog": {},
+      "line":  { "color": "#87cefa", "opacity": 1, "width": 1 },
+      "label": { "color": "#87cefa", "opacity": 1, "size": 10, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", ""] },
+
+    { "name": "PGC", "role": "optional", "sortBy": "diameter", "minDiameterPx": 24, "catalog": {},
+      "line":  { "color": "#00ffff", "opacity": 1, "width": 1 },
+      "label": { "color": "#00ffff", "opacity": 1, "size": 12, "face": "DejaVu Sans", "bold": false, "italic": false, "show": true },
+      "showMarkers": true, "labelFields": ["", "", "", "", "Name", "", "", ""] }
+  ]
+}
