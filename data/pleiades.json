@@ -1,6 +1,18 @@
 {
     "title": "Pleiades",
-    "wip": true,
     "annotated": true,
+    "filters": ["luminance", "red", "green", "blue"],
+    "frames": {
+        "luminance": 27,
+        "red": 66,
+        "green": 68,
+        "blue": 68
+    },
+    "integrationSeconds": {
+        "luminance": 300,
+        "red": 300,
+        "green": 300,
+        "blue": 300
+    },
     "text": "The Pleiades, also known as Seven Sisters and Messier 45 (M45), is an asterism of an open star cluster containing young B-type stars in the northwest of the constellation Taurus."
 }
