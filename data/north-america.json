@@ -1,0 +1,20 @@
+{
+    "title": "North America and Pelican Nebulae",
+    "annotated": true,
+    "filters": ["luminance", "red", "green", "blue", "ha"],
+    "frames": {
+        "luminance": 68,
+        "red": 60,
+        "green": 66,
+        "blue": 47,
+        "ha": 74
+    },
+    "integrationSeconds": {
+        "luminance": 300,
+        "red": 300,
+        "green": 300,
+        "blue": 300,
+        "ha": 600
+    },
+    "text": "The North America Nebula (NGC 7000) and the Pelican Nebula (IC 5070) are one emission nebula in the constellation Cygnus, split by a lane of dark dust."
+}
